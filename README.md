@@ -14,6 +14,7 @@ docker run -it --name airflow-ctn \
     -p 8080:8080 \
     -e AIRFLOW__CORE__LOAD_EXAMPLES=False \
     -v ./dags:/opt/airflow/dags \
+    -v ./plugins:/opt/airflow/plugins \
     trungtvo/airflow:3.1.5-python3.13 standalone
 ```
 

@@ -1,0 +1,1 @@
+print("Airflow Plugins initialized")
